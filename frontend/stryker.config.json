@@ -1,0 +1,7 @@
+{
+  "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+  "packageManager": "npm",
+  "testRunner": "vitest",
+  "reporters": ["json", "clear-text"],
+  "mutate": ["src/**/*.ts", "src/**/*.tsx", "!src/**/*.test.tsx", "!src/vite-env.d.ts", "!src/main.tsx"]
+}
