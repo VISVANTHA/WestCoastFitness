@@ -1,0 +1,6 @@
+@WestCoastFitness.Api_HostAddress = http://localhost:5015
+
+GET {{WestCoastFitness.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

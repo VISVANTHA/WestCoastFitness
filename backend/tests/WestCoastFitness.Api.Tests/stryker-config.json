@@ -1,0 +1,9 @@
+{
+  "$schema": "https://raw.githubusercontent.com/stryker-mutator/stryker-net/master/src/Stryker.Core/Stryker.Core/Resources/stryker-config-schema.json",
+  "stryker-config": {
+    "project": "WestCoastFitness.Api.csproj",
+    "test-projects": ["../../tests/WestCoastFitness.Api.Tests/WestCoastFitness.Api.Tests.csproj"],
+    "reporters": ["json", "progress"],
+    "concurrency": 1
+  }
+}
